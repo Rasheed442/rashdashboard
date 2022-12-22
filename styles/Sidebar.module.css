@@ -1,0 +1,65 @@
+.sub{
+    display: flex;
+    padding: 20px;
+    gap: 3rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sub:hover{
+    background-color: gray;
+}
+.background{
+    background-image: url("/island.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 20rem;
+    overflow: scroll;
+    background-position:left;
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.712);
+    height: 100vh;
+    width: 20rem;
+    overflow: scroll;
+}
+.line{
+    width: 16rem;
+    background-color: gray;
+    height: 1px;
+    margin-left: 10px;
+}
+.sub h3{
+    font-weight: lighter;
+}
+.profile{
+    display:flex ;
+    gap: 2px;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+.girl{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+}
+.girl img{
+    border-radius: 20px;
+}
+.mp{
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 20px;
+    color: white;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:960px) {
+   .background{
+    display: none;
+   }
+}

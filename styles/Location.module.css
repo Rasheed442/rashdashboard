@@ -1,0 +1,199 @@
+.global{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.background{
+    margin: 20px;
+    background-color: white;
+    height: 55vh;
+    border-radius: 20px;
+}
+.global h3{
+    font-weight: lighter;
+    color: gray;
+}
+.globalicon{
+    background-color: green;
+    color: white;
+    margin-top: -30px;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;   
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 20px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    width: 28rem;
+    margin: 20px;
+}
+.flag{
+    display: flex;
+    gap: 10px;
+}
+.gdp{
+    display: flex;
+    gap: 10px;
+}
+.map{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 10rem;
+}
+ 
+
+@media screen and (max-width:1280px) {
+   .map{
+     padding-right: -30px;
+     padding-left: 0px;
+   }
+  
+}
+@media screen and (max-width:1024px) {
+  .map{
+    padding-right: 0px;
+  }
+   .main{
+      width: 10rem;
+      gap: 10px;
+   }
+   .background{
+    height: 29rem;
+   }
+   .mapimage img{
+    width: 30rem;
+ }
+  
+}
+@media screen and (max-width:540px) {
+   .map{
+     justify-content: center;
+     padding-left: 0;
+     flex-direction: column;
+   }
+ .mapimage img{
+    width: 23rem;
+ }
+   .main{
+      width: 26rem;
+   }
+ 
+   .gdp{
+    display: block;
+   }
+   .background{
+    height: 120%;
+   }
+  
+}
+@media screen and (max-width:412px) {
+   .map{
+     justify-content: center;
+     padding-left: 0;
+     flex-direction: column;
+   }
+ .mapimage img{
+    width: 23rem;
+ }
+   .main{
+      width: 20rem;
+      gap: 10px;
+   }
+ 
+   .background{
+    height: 95%;
+   }
+}
+@media screen and (max-width:414px) {
+   .map{
+     justify-content: center;
+     padding-left: 0;
+     flex-direction: column;
+   }
+ .mapimage img{
+    width: 23rem;
+ }
+   .main{
+      width: 20rem;
+      gap: 10px;
+   }
+ 
+   .background{
+    height: 96%;
+   }
+}
+@media screen and (max-width:360px) {
+   .map{
+     justify-content: center;
+     padding-left: 0;
+     flex-direction: column;
+   }
+ .mapimage img{
+    width: 20rem;
+ }
+   .main{
+      width: 17rem;
+   }
+ 
+   .background{
+    height: 95%;
+   }
+  
+}
+@media screen and (max-width:375px) {
+   .map{
+     justify-content: center;
+     padding-left: 0;
+     flex-direction: column;
+   }
+ .mapimage img{
+    width: 20rem;
+    display: none;
+ }
+   .main{
+      width: 17rem;
+   }
+ 
+   .background{
+    height: 95%;
+   }
+  
+}
+@media screen and (max-width:393px) {
+ 
+ .mapimage img{
+    width: 18rem;
+ }
+ .background{
+    height: 101%;
+ }
+  
+
+}
+@media screen and (max-width:280px) {
+   .map{
+     justify-content: center;
+     padding-left: 0;
+     flex-direction: column;
+   }
+ .mapimage img{
+    width: 15rem;
+ }
+   .main{
+      width: 13rem;
+   }
+ 
+   .gdp{
+    display: block;
+   }
+   .background{
+    height: 95%;
+   }
+  
+}

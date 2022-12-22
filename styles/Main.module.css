@@ -1,0 +1,183 @@
+.app{
+    background-color: #EEEEEE;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+}
+.container{
+    display: flex;
+    padding: 20px;
+    justify-content:space-between;
+}
+.dash{
+    display: flex;
+    gap: 20px;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+}
+.search input{
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+    background-color: #EEEEEE;
+}
+.icon{
+    display: flex;
+    gap: 19px;
+}
+.notifications span{
+    position: relative;
+    margin-left: -10px;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: red;
+}
+.paste{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.paste p{
+    font-size: 15px;
+    font-weight: lighter;
+    color: gray;
+}
+.paste span{
+    font-weight: lighter;
+    font-size: 20px;
+    color: black;
+}
+.bg{
+    background-color: white;
+    margin: 30px;
+    display: flex;
+    transition: 0.5s;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+}
+
+.issues{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: space-between;
+}
+.copy{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 3px;
+    width: 5rem;
+    margin-top: -30px;
+}
+.copy1{
+    background-color: green;
+    padding: 10px;
+    border-radius: 3px;
+    width: 5rem;
+    margin-top: -30px;
+}
+.copy2{
+    background-color: red;
+    padding: 10px;
+    border-radius: 3px;
+    width: 5rem;
+    margin-top: -30px;
+}
+.copy3{
+    background-color: rgb(86, 127, 143);
+    padding: 10px;
+    border-radius: 3px;
+    width: 5rem;
+    margin-top: -30px;
+}
+
+
+@media screen and (max-width:1291px) {
+    .issues{
+        grid-template-columns: auto auto;
+    }
+    .bg{
+        width: 25rem;
+    }
+}
+@media screen and (max-width:1174px) {
+    .issues{
+        grid-template-columns: auto auto;
+    }
+    .bg{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:993px) {
+    .issues{
+        grid-template-columns: auto auto;
+    }
+    .bg{
+        width: 15rem;
+    }
+}
+@media screen and (max-width:960px) {
+   .search input{
+    display: none;
+   }
+    .issues{
+        grid-template-columns: auto auto;
+    }
+    .bg{
+        width: 25rem;
+    }
+}
+@media screen and (max-width:898px) {
+    .issues{
+        grid-template-columns: auto auto;
+    }
+    .bg{
+        width: 17rem;
+    }
+}
+@media screen and (max-width:630px) {
+    .issues{
+        grid-template-columns: auto auto;
+    }
+    .bg{
+        width: 12rem;
+    }
+}
+/* @media screen and (max-width:480px) {
+    .issues{
+        grid-template-columns: auto ;
+    }
+    .bg{
+        width: 25rem;
+    }
+} */
+@media screen and (max-width:414px) {
+    .issues{
+        grid-template-columns: auto ;
+    }
+    .bg{
+        width: 22rem;
+    }
+}
+@media screen and (max-width:375px) {
+    .issues{
+        grid-template-columns: auto ;
+    }
+    .bg{
+        width: 20rem;
+    }
+}
+@media screen and (max-width:280px) {
+    .issues{
+        grid-template-columns: auto ;
+    }
+    .bg{
+        width: 14rem;
+    }
+}

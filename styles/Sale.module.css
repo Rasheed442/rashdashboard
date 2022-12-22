@@ -1,0 +1,109 @@
+.sale{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    margin-top: 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.5s;
+    width: 21.5rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.chart{
+    margin-top: -70px;
+}
+.chart img{
+    border-radius: 10px;
+}
+
+.grid{
+    padding-top: 20px;
+}
+.clock{
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen and (max-width:1332px) {
+.grid{
+    grid-template-columns: auto auto;
+}
+.sale{
+    width: 30rem;
+}
+}
+@media screen and (max-width:1280px) {
+.grid{
+    grid-template-columns: auto auto auto;
+}
+.sale{
+    width: 20rem;
+}
+}
+@media screen and (max-width:1024px) {
+.grid{
+    grid-template-columns: auto auto;
+}
+.sale{
+    width: 20rem;
+}
+}
+@media screen and (max-width:960px) {
+.grid{
+    grid-template-columns: auto auto;
+}
+.sale{
+    width: 25rem;
+}
+}
+@media screen and (max-width:840px) {
+.grid{
+    grid-template-columns: auto auto;
+}
+.sale{
+    width: 20rem;
+}
+}
+@media screen and (max-width:685px) {
+.grid{
+    grid-template-columns: auto;
+}
+.sale{
+    width: 32rem;
+}
+}
+@media screen and (max-width:375px) {
+.grid{
+    grid-template-columns: auto;
+    margin-top: 110px;
+}
+.sale{
+    width: 20rem;
+}
+}
+@media screen and (max-width:414px) {
+.grid{
+    grid-template-columns: auto;
+    margin-top: 80px;
+}
+.sale{
+    width: 20rem;
+}
+}
