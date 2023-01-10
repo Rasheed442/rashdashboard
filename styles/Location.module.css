@@ -48,6 +48,12 @@
 }
  
 
+@media screen and (max-width:1302px) {
+   .mapimage img{
+      width: 20rem;
+   }
+  
+}
 @media screen and (max-width:1280px) {
    .map{
      padding-right: -30px;
@@ -55,7 +61,7 @@
    }
   
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1094px) {
   .map{
     padding-right: 0px;
   }
@@ -71,7 +77,15 @@
  }
   
 }
-@media screen and (max-width:540px) {
+@media screen and (max-width:765px) {
+ 
+   .mapimage img{
+    width: 23rem;
+ }
+  
+}
+
+@media screen and (max-width:655px) {
    .map{
      justify-content: center;
      padding-left: 0;
@@ -81,7 +95,8 @@
     width: 23rem;
  }
    .main{
-      width: 26rem;
+      display: flex;
+      width: 35rem;
    }
  
    .gdp{

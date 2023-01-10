@@ -17,7 +17,7 @@ function Location() {
 {/* display map here */}
 <div className={style.map}>
 
-       <div>
+       <div>===
          <div className={style.main}>
               <div className={style.flag}>
                   <Image

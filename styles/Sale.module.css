@@ -41,30 +41,16 @@
 }
 
 
-@media screen and (max-width:1332px) {
+@media screen and (max-width:1363px) {
 .grid{
     grid-template-columns: auto auto;
 }
 .sale{
-    width: 30rem;
+    width: 25rem;
 }
 }
-@media screen and (max-width:1280px) {
-.grid{
-    grid-template-columns: auto auto auto;
-}
-.sale{
-    width: 20rem;
-}
-}
-@media screen and (max-width:1024px) {
-.grid{
-    grid-template-columns: auto auto;
-}
-.sale{
-    width: 20rem;
-}
-}
+
+
 @media screen and (max-width:960px) {
 .grid{
     grid-template-columns: auto auto;
